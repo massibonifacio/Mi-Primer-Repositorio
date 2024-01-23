@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    color: black;
+    font-family: 'Nunito';
+}
+
+header, footer {
+    background-color: #014210c0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    column-gap: 10px;
+}
+
+nav ul li a {
+    margin-right: 7px;
+    color: black;
+}
+
+.paginas:hover {
+    color: azure;
+}
+
+.logoheader {
+    width: 60px;
+    margin: 3px;
+}
+
+main {
+    background-color: #074303e1;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.fotoportada {
+    margin: 3px;
+    width: 100%;
+}
+
+.ofertas {
+    display: flex;
+}
+
+.productos {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.productos img {
+    margin: 3px;
+    padding: 0px 15px;
+    width: 300px;
+    height: 280px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logofooter {
+    width: 50px;
+    margin: 3px;
+}
+
+.proximamente {
+    width: 100%
+}
+
+section div p {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+div .productos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "pregunta1 pregunta2 pregunta3"
+    "pregunta4 pregunta5 pregunta6";
+}
+
+.item1 {
+    grid-area: pregunta1;
+}
+
+.item2 {
+    grid-area: pregunta2;
+}
+
+.item3 {
+    grid-area: pregunta3;
+}
+
+.item4 {
+    grid-area: pregunta4;
+}
+
+.item5 {
+    grid-area: pregunta5;
+}
+
+.item6 {
+    grid-area: pregunta6;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas:
+        "pregunta1 pregunta2" 
+        "pregunta3 pregunta4"
+        "pregunta5 pregunta6";
+    }
+
+    .ofertas {
+        justify-content: center;
+    }
+
+    .productos {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        "pregunta1"
+        "pregunta2" 
+        "pregunta3"
+        "pregunta4"
+        "pregunta5"
+        "pregunta6";
+    }
+    
+    .ofertas {
+        justify-content: center;
+    }
+
+    .productos {
+        width: 60%;
+    }
+}

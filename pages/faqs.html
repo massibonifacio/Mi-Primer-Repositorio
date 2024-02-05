@@ -94,19 +94,25 @@
             <div>
                 <form action="form.php" method="POST">
                     <h2>¿Tienes alguna otra pregunta?</h2>
-                    <div>
-                        <label for="nombre">Nombre y apellido</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Lionel Messi">
+                    <div class="row mb-3">
+                        <label for="inputName" class="col-sm-2 col-form-label">Nombre</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="inputName">
+                        </div>
                     </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" placeholder="leomessi@gmail.com">
+                    <div class="row mb-3">
+                        <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3">
+                        </div>
                     </div>
-                    <div>
-                        <p>Tu Pregunta</p>
-                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <div class="row mb-3">
+                        <label for="inputPregunta" class="col-sm-2 col-form-label">Tu Pregunta</label>
+                        <div class="col-sm-10">
+                            <textarea type="textarea" class="form-control" id="inputPregunta"></textarea>
+                        </div>
                     </div>
-                    <input type="submit" value="Enviar">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
                 </form>
             </div>
         </section>

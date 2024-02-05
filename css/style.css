@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
 }
 
 html {
@@ -47,12 +46,24 @@ h3 {
 }
 
 .ofertas {
-    display: flex;
+    display: grid;
+    grid-template-areas:
+    "pregunta1 pregunta2 pregunta3"
+    "pregunta4 pregunta5 pregunta6";
 }
 
 .productos {
-    justify-content: space-around;
-    align-items: center;
+    text-align: center;
+}
+
+.productos a p {
+    color: black;
+    text-decoration: none;
+}
+
+.card p {
+    color: black;
+    text-decoration: none;
 }
 
 .productos img {
@@ -80,7 +91,7 @@ footer {
 }
 
 .proximamente {
-    width: 100%
+    width: 80%
 }
 
 section div p {
@@ -91,11 +102,6 @@ form {
     text-align: center;
 }
 
-div .productos {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
 .grid {
     display: grid;

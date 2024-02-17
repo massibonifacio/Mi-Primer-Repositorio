@@ -24,10 +24,11 @@ main {
         justify-content: space-around;
         flex-wrap: wrap;
         .card {
-            p {
                 color: black;
                 text-decoration: none;
-                }
+                .card-text {
+                    text-align: center;
+                    }
             }
         }
     }

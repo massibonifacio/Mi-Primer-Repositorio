@@ -29,9 +29,12 @@ main .camisetas {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-main .camisetas .card p {
+main .camisetas .card {
   color: black;
   text-decoration: none;
+}
+main .camisetas .card .card-text {
+  text-align: center;
 }
 
 footer {

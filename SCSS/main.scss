@@ -1,4 +1,8 @@
-@import "componentes/header";
+@import "utilities/reset";
+@import "utilities/variables";
+@import "utilities/global";
+
+@import "components/header";
 
 @import "pages/index-main";
 @import "pages/productos-main";
@@ -7,4 +11,6 @@
 @import "pages/proximamente-main";
 @import "pages/sobre-mi-main";
 
-@import "componentes/footer";
+@import "components/footer";
+
+@import "utilities/media-queries";

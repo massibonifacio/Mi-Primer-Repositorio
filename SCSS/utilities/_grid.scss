@@ -1,0 +1,31 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "pregunta1 pregunta2 pregunta3"
+    "pregunta4 pregunta5 pregunta6";
+}
+
+.item1 {
+    grid-area: pregunta1;
+}
+
+.item2 {
+    grid-area: pregunta2;
+}
+
+.item3 {
+    grid-area: pregunta3;
+}
+
+.item4 {
+    grid-area: pregunta4;
+}
+
+.item5 {
+    grid-area: pregunta5;
+}
+
+.item6 {
+    grid-area: pregunta6;
+}

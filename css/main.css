@@ -1,3 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: black;
+  font-family: "Nunito";
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+}
+
 header .menu {
   flex-grow: 0;
 }
@@ -6,34 +33,113 @@ header .menu .logoheader {
   margin: 3px;
 }
 
-main h1 {
-  text-align: center;
-  font-size: 40px;
-}
-main .camisetas {
+.camisetas {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-main .camisetas .fotoportada {
+.camisetas .fotoportada {
   margin: 3px;
   width: 80%;
 }
-main h2 {
-  text-align: center;
-  font-size: 30px;
-  margin: 10px;
-}
-main .camisetas {
+
+.camisetas {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
-main .camisetas .card {
+.camisetas .card {
   color: black;
   text-decoration: none;
 }
-main .camisetas .card .card-text {
+.camisetas .card .card-text {
+  text-align: center;
+}
+
+.camisetas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.camisetas .fotoportada {
+  margin: 3px;
+  width: 80%;
+}
+
+.card {
+  color: black;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.card .card-body .card-text {
+  text-align: center;
+}
+
+.camisetas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.camisetas .fotoportada {
+  margin: 3px;
+  width: 80%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4vh;
+  height: 65vh;
+}
+form .form-content {
+  display: flex;
+  flex-direction: row;
+  gap: 1vh;
+}
+
+.camisetas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.camisetas .fotoportada {
+  margin: 3px;
+  width: 80%;
+}
+
+.ofertas .productos {
+  text-align: center;
+  color: black;
+  text-decoration: none;
+}
+.ofertas .productos a p {
+  color: black;
+  text-decoration: none;
+}
+.ofertas .productos img {
+  margin: 3px;
+  padding: 0px 15px;
+  width: 300px;
+  height: 280px;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas: "pregunta1 pregunta2 pregunta3" "pregunta4 pregunta5 pregunta6";
+}
+
+.camisetas {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.camisetas .fotoportada {
+  margin: 3px;
+  width: 80%;
+}
+
+.sobre-mi {
   text-align: center;
 }
 
@@ -47,7 +153,7 @@ footer {
 footer .redessociales {
   width: 40px;
 }
-footer .divlogofooter .logofooter {
+footer .logofooter {
   width: 50px;
   margin: 3px;
 }

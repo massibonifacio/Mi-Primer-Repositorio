@@ -1,0 +1,22 @@
+.camisetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .fotoportada {
+        margin: 3px;
+        width: 80%;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4vh;
+    height: 65vh;
+    .form-content {
+            display: flex;
+            flex-direction: row;
+            gap: 1vh;
+        }
+    }

@@ -1,13 +1,14 @@
+/* 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} */
 
-html {
+/* html {
     color: black;
     font-family: 'Nunito';
-}
+} */
 
 
 /* .menu {
@@ -22,91 +23,87 @@ html {
 
 
 
-h1 {
+/* h1 {
     text-align: center;
     font-size: 40px;
-}
+} */
 
-.camisetas {
+/* .camisetas {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-}
+} */
 
-h2 {
+/* h2 {
     text-align: center;
     font-size: 30px;
     margin: 10px;
-}
+} */
 
-h3 {
+/* h3 {
     text-align: center;
     font-size: 20px;
-}
+} */
 
-.fotoportada {
+/* .fotoportada {
     margin: 3px;
     width: 80%;
-}
+} */
 
-.ofertas {
+/* .ofertas {
     display: grid;
     grid-template-areas:
     "pregunta1 pregunta2 pregunta3"
     "pregunta4 pregunta5 pregunta6";
-}
+} */
 
-.productos {
+/* .productos {
     text-align: center;
 }
 
 .productos a p {
     color: black;
     text-decoration: none;
-}
+} */
 
-.card p {
+/* .card p {
     color: black;
     text-decoration: none;
-}
+} */
 
-.productos img {
+/* .productos img {
     margin: 3px;
     padding: 0px 15px;
     width: 300px;
     height: 280px;
-}
+} */
 
-footer {
+/* footer {
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.044);
-}
+} */
 
-.redessociales {
-    width: 40px;
-}
-
-.redessociales {
+/* .redessociales {
     width: 40px;
 }
 
 .logofooter {
     width: 50px;
     margin: 3px;
-}
+} */
 
 .proximamente {
     width: 80%
 }
 
-section div p {
+/* section div p {
     text-align: center;
-}
+} */
 
-form {
+/* form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -118,9 +115,9 @@ form {
     display: flex;
     flex-direction: row;
     gap: 1vh;
-}
+} */
 
-.grid {
+/* .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
@@ -150,7 +147,7 @@ form {
 
 .item6 {
     grid-area: pregunta6;
-}
+} */
 
 @media screen and (max-width: 1024px) {
     .list-group-item-action {

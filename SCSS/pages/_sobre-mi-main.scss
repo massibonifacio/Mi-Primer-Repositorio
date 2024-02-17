@@ -1,0 +1,13 @@
+.camisetas {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .fotoportada {
+        margin: 3px;
+        width: 80%;
+    }
+}
+
+.sobre-mi {
+        text-align: center;
+}

@@ -1,0 +1,73 @@
+@media screen and (max-width: 1024px) {
+    .list-group-item-action {
+    width: 33%;
+    }
+
+    .ofertas {
+        display: grid;
+        grid-template-areas:
+        "pregunta1 pregunta2"
+        "pregunta3 pregunta4"
+        "pregunta5 pregunta6";
+    }
+    
+    // .grid {
+    //     grid-template-columns: repeat(2, 1fr);
+    //     grid-template-areas:
+    //     "pregunta1 pregunta2" 
+    //     "pregunta3 pregunta4"
+    //     "pregunta5 pregunta6";
+    // }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .reviews-section {
+        .review {
+            width: 38%; /* Dos columnas en tablet */
+        }
+    }
+
+    footer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas:
+        "pregunta1"
+        "pregunta2" 
+        "pregunta3"
+        "pregunta4"
+        "pregunta5"
+        "pregunta6";
+    }
+
+    // .ofertas {
+    //     grid-template-columns: repeat(1, 1fr);
+    //     grid-template-areas:
+    //     "pregunta1"
+    //     "pregunta2" 
+    //     "pregunta3"
+    //     "pregunta4"
+    //     "pregunta5"
+    //     "pregunta6";
+    // }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews-section {
+        .review {
+            width: 100%; /* Dos columnas en tablet */
+        }
+    }
+}

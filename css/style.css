@@ -147,7 +147,7 @@
     grid-area: pregunta6;
 } */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .list-group-item-action {
     width: 33%;
     }
@@ -179,7 +179,7 @@
     footer {
         flex-direction: column;
     }
-}
+} */
 
 @media screen and (max-width: 768px) {
     .grid {

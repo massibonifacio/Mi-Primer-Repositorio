@@ -1,7 +1,5 @@
 .camisetas {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    @include flex (space-around, wrap);
     .fotoportada {
         margin: 3px;
         width: 80%;
@@ -19,4 +17,40 @@
                 text-align: center;
                 }
         }
+        .overlay {
+            .card-price {
+                position: absolute;
+                bottom: 45px;
+                right: 4px;
+                background-color: rgba(230, 207, 8, 0.7);
+                padding: 5px 10px;
+                border-radius: 5px;
+                border: 1px solid black;
+            }
+        }
     }
+
+    .reviews-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 20px;
+        .review {
+            text-align: center;
+            width: 30%;
+            .circle-image {
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                overflow: hidden;
+                margin: 0 auto 10px;
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .review-text {
+                font-size: 12px;
+            }
+        }
+    }   

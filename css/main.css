@@ -17,7 +17,7 @@ h1 {
 h2 {
   text-align: center;
   font-size: 30px;
-  margin: 10px;
+  margin: 20px;
 }
 
 h3 {
@@ -54,6 +54,40 @@ header .menu .logoheader {
 }
 .camisetas .card .card-text {
   text-align: center;
+}
+.camisetas .overlay .card-price {
+  position: absolute;
+  bottom: 45px;
+  right: 4px;
+  background-color: rgba(230, 207, 8, 0.7);
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.reviews-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.reviews-section .review {
+  text-align: center;
+  width: 30%;
+}
+.reviews-section .review .circle-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 10px;
+}
+.reviews-section .review .circle-image img {
+  width: 100%;
+  height: auto;
+}
+.reviews-section .review .review-text {
+  font-size: 12px;
 }
 
 .camisetas {
@@ -160,6 +194,41 @@ footer .redessociales {
 footer .logofooter {
   width: 50px;
   margin: 3px;
+}
+
+@media screen and (max-width: 1024px) {
+  .list-group-item-action {
+    width: 33%;
+  }
+  .ofertas {
+    display: grid;
+    grid-template-areas: "pregunta1 pregunta2" "pregunta3 pregunta4" "pregunta5 pregunta6";
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviews-section .review {
+    width: 38%; /* Dos columnas en tablet */
+  }
+  footer {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "pregunta1" "pregunta2" "pregunta3" "pregunta4" "pregunta5" "pregunta6";
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .reviews-section .review {
+    width: 100%; /* Dos columnas en tablet */
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

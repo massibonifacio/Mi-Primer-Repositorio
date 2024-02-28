@@ -33,12 +33,12 @@ header .menu .logoheader {
   margin: 3px;
 }
 
-.camisetas {
+.portada {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.camisetas .fotoportada {
+.portada .fotoportada {
   margin: 3px;
   width: 80%;
 }
@@ -90,12 +90,12 @@ header .menu .logoheader {
   font-size: 12px;
 }
 
-.camisetas {
+.portada {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.camisetas .fotoportada {
+.portada .fotoportada {
   margin: 3px;
   width: 80%;
 }
@@ -109,12 +109,12 @@ header .menu .logoheader {
   color: black;
 }
 
-.camisetas {
+.portada {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.camisetas .fotoportada {
+.portada .fotoportada {
   margin: 3px;
   width: 80%;
 }
@@ -132,12 +132,12 @@ form .form-content {
   gap: 1vh;
 }
 
-.camisetas {
+.portada {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.camisetas .fotoportada {
+.portada .fotoportada {
   margin: 3px;
   width: 80%;
 }
@@ -167,12 +167,12 @@ form .form-content {
   width: 80%;
 }
 
-.camisetas {
+.portada {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.camisetas .fotoportada {
+.portada .fotoportada {
   margin: 3px;
   width: 80%;
 }

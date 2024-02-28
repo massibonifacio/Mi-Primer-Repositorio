@@ -1,5 +1,5 @@
-.camisetas {
-    @include flex (space-around, wrap);
+.portada {
+    @include flex(center, center);
     .fotoportada {
         margin: 3px;
         width: 80%;
